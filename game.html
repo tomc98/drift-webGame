@@ -1,0 +1,58 @@
+<HTML>
+	<head>
+		<title>game</title>
+		<!-- img loading -->
+		<div class="hidden">
+			<img id="p1" src="player.png" alt="The Scream" width="0" height="0">
+			<img id="p2" src="player2.png" alt="The Scream" width="0" height="0">
+			<img id="bg" src="bg.png" alt="The Scream" width="0" height="0">
+		</div>
+		
+	</head>
+	<body onload="Play()"style="background:black url(5054.jpg) center center;background-repeat:no-repeat;background-attachment:fixed;">
+		<table align="center" bgcolor="#221E1F" width="1000">
+			<tr>
+				<th><font color="white"><h1><p style="font-size: 300%;">Drift</p></h1></font></th>
+			<tr>
+				<td>
+					<style>
+						#container { position: relative; }
+						.canvas { position: absolute; top: -100; left: -2; }
+					</style>
+					<div id="container" height="560">
+						<SECTION>
+							<CANVAS class="canvas" WIDTH="1000" HEIGHT="750" ID="BGcanvas">
+								Canvas tag not supported
+							</CANVAS>
+							<CANVAS class="canvas" WIDTH="1000" HEIGHT="750" ID="maincanvas" tabindex="0">
+								Canvas tag not supported
+							</CANVAS>
+							<CANVAS class="canvas" WIDTH="1000" HEIGHT="750" ID="CanvasOverlay" tabindex="0">
+								Canvas tag not supported
+							</CANVAS>
+						</SECTION>
+					</div>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<button onclick="activateTheColour()">Rainbow bullet mode</button>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<a href="index.html"><h1 align="center"><font color="white">Home</font></h1></a>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<font color="white">
+						Try to survive as long as you can.
+					</font>
+				</th>
+			</tr>
+		</table>
+		<script src="main.js"></script>
+	</body>
+</HTML>
